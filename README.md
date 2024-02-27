@@ -1,7 +1,6 @@
 # Module
-Python
+Python code for module(basic)
 ````Python
-~~~
 #Module basic(thường)
 def printmultiply(n, f):
     if not isinstance(n, (int, float)) or not isinstance(f, (int, float)):
@@ -33,4 +32,3 @@ def printabate(n, f):
         raise TypeError("Vui lòng nhập số cho n và f")
     total = n - f
     print(total)
-~~~
